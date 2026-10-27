@@ -1,0 +1,40 @@
+.pay-order-page {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 30rpx;
+}
+
+.order-card {
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 40rpx 30rpx;
+}
+
+.row-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+  font-size: 30rpx;
+  .label {
+    color: #333;
+  }
+  .value {
+    color: #666;
+  }
+  .money {
+    color: #f43f31;
+    font-size: 38rpx;
+    font-weight: bold;
+  }
+}
+
+.btn-wrap {
+  margin-top: 80rpx;
+}
+
+.pay-btn {
+  background-color: #07c160;
+  color: #ffffff;
+  border-radius: 50rpx;
+}

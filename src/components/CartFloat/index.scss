@@ -1,0 +1,39 @@
+/* 悬浮球：白色圆球，和详情页购物车图标同风格 */
+.cart-float {
+  position: fixed;
+  right: 24px;
+  bottom: 120px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border: 2px solid #f0f1f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.cart-float-icon {
+  font-size: 50px;
+  line-height: 1;
+}
+
+/* ⭐ 角标：和详情页 footer-cart-badge 完全一致 */
+.cart-float-badge {
+  position: absolute;
+  top: -4px;                 /* 原来-6 → -4，和详情页对齐 */
+  right: -4px;               /* 原来-6 → -4 */
+  min-width: 34px;           /* 原来38 → 34 */
+  height: 34px;              /* 原来38 → 34 */
+  line-height: 34px;
+  border-radius: 17px;
+  background: #ff4d00;       /* 红色 */
+  color: #fff;
+  font-size: 20px;           /* 原来22 → 20 */
+  text-align: center;
+  padding: 0 6px;
+  box-sizing: border-box;
+  border: 2px solid #fff;    /* 白描边 */
+}
